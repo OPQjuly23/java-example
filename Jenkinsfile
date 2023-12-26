@@ -24,7 +24,7 @@ triggers {
 		label "sonar"
 		}
             steps{
-              git 'https://github.com/OPQjuly23/Train-Ticket-Reservation-System.git'
+              git 'https://github.com/OPQjuly23/java-example.git'
               echo " Executing in $ENV envirnoment "
 	        	echo "This is my github token ${GITHUB_KEY}"
 	        	echo " This is my Jenkins username is ${JENKINS_USER_USR} "
